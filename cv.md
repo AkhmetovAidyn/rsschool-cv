@@ -22,6 +22,7 @@ at the end of '19 I realized, if you want to be the best in any field, you have 
 * Git/GitHub
 * Adobe Photoshop, Adobe Premiere Pro, Figma, Avacode, Zeplin
 * jQuery
+* JavaScript Basic
 
 ---
 
