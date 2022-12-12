@@ -1,6 +1,6 @@
 # Akhmetov Aidyn
 ## Contacts
-* location **Kazakhstan**
+* location **Kazakhstan** **Astana**
 * Phone:
 +**77024795802**
 * Email: Ahmetovv_aidyn@mail.ru
@@ -52,3 +52,4 @@ at the end of '19 I realized, if you want to be the best in any field, you have 
 
 ## Languages
 * English: **Basic**
+* Arabic **Basic**
