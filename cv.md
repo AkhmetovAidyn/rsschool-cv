@@ -3,7 +3,7 @@
 * location **Kazakhstan** **Astana**
 * Phone:
 +**77024795802**
-* Email: Ahmetovv_aidyn@mail.ru
+* Email: ahmetovv_aidyn@mail.ru
 * GitHub: [uchenik1](https://github.com/uchenik1/rsschool-cv/tree/gh-pages)
 * Telegram: @**digll**
 
