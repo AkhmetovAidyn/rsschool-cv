@@ -1,16 +1,600 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link href="img/logo.png" rel="shortcut icon">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
 </head>
 
 <body>
-  <h1>My first project</h1>
+  <header class="header">
+    <nav class="header-nav">
+      <div class="header-nav-logo">
+        <img src="img/logo.png" alt="logo" class="header-nav-logo__img">
+        <a href="#" class="header-nav-logo__text">Aidyn<br>Akhmetov</a>
+      </div>
+      <div class="header-nav-menu">
+        <ul class="site-nav">
+          <li class="site-nav__item home">
+            <a class="site-nav__link">
+              <span class="animated-btn">
+                <span>
+                  <em>H</em>
+                  <em>O</em>
+                  <em>M</em>
+                  <em>E</em>
+                </span>
+              </span>
+            </a>
+          </li>
+          <li class="site-nav__item about">
+            <a class="site-nav__link">
+              <span class="animated-btn">
+                <span>
+                  <em>A</em>
+                  <em>B</em>
+                  <em>O</em>
+                  <em>U</em>
+                  <em>T</em>
+                </span>
+              </span>
+            </a>
+          </li>
+          <li class="site-nav__item skills">
+            <a class="site-nav__link">
+              <span class="animated-btn">
+                <span>
+                  <em>S</em>
+                  <em>K</em>
+                  <em>I</em>
+                  <em>L</em>
+                  <em>L</em>
+                  <em>S</em>
+                </span>
+              </span>
+            </a>
+          </li>
+          <li class="site-nav__item projects">
+            <a class="site-nav__link">
+              <span class="animated-btn">
+                <span>
+                  <em>P</em>
+                  <em>R</em>
+                  <em>O</em>
+                  <em>J</em>
+                  <em>E</em>
+                  <em>C</em>
+                  <em>T</em>
+                  <em>S</em>
+                </span>
+              </span>
+            </a>
+          </li>
+          <li class="site-nav__item languages">
+            <a class="site-nav__link">
+              <span class="animated-btn">
+                <span>
+                  <em>L</em>
+                  <em>A</em>
+                  <em>N</em>
+                  <em>G</em>
+                  <em>U</em>
+                  <em>A</em>
+                  <em>G</em>
+                  <em>E</em>
+                  <em>S</em>
+                </span>
+              </span>
+            </a>
+          </li>
+          <li class="site-nav__item education">
+            <a class="site-nav__link">
+              <span class="animated-btn">
+                <span>
+                  <em>E</em>
+                  <em>D</em>
+                  <em>U</em>
+                  <em>C</em>
+                  <em>A</em>
+                  <em>T</em>
+                  <em>I</em>
+                  <em>O</em>
+                  <em>N</em>
+                </span>
+              </span>
+            </a>
+          </li>
+          <li class="site-nav__item code">
+            <a class="site-nav__link">
+              <span class="animated-btn">
+                <span>
+                  <em>C</em>
+                  <em>O</em>
+                  <em>D</em>
+                  <em>E</em>
+                  <em>S</em>
+                  <em>T</em>
+                  <em>Y</em>
+                  <em>L</em>
+                  <em>E</em>
+                </span>
+              </span>
+            </a>
+          </li>
+          <li class="site-nav__item contacts">
+            <a class="site-nav__link">
+              <span class="animated-btn">
+                <span>
+                  <em>C</em>
+                  <em>O</em>
+                  <em>N</em>
+                  <em>T</em>
+                  <em>A</em>
+                  <em>C</em>
+                  <em>T</em>
+                  <em>S</em>
+                </span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-btn">
+        <span></span>
+      </div>
+    </nav>
+    <div class="mobive-nav-menu">
+      <ul class="site-nav">
+        <li class="site-nav__item home">
+          <a class="site-nav__link">
+            <span class="animated-btn">
+              <span>
+                <em>H</em>
+                <em>O</em>
+                <em>M</em>
+                <em>E</em>
+              </span>
+            </span>
+          </a>
+        </li>
+        <li class="site-nav__item about">
+          <a class="site-nav__link">
+            <span class="animated-btn">
+              <span>
+                <em>A</em>
+                <em>B</em>
+                <em>O</em>
+                <em>U</em>
+                <em>T</em>
+              </span>
+            </span>
+          </a>
+        </li>
+        <li class="site-nav__item skills">
+          <a class="site-nav__link">
+            <span class="animated-btn">
+              <span>
+                <em>S</em>
+                <em>K</em>
+                <em>I</em>
+                <em>L</em>
+                <em>L</em>
+                <em>S</em>
+              </span>
+            </span>
+          </a>
+        </li>
+        <li class="site-nav__item projects">
+          <a class="site-nav__link">
+            <span class="animated-btn">
+              <span>
+                <em>P</em>
+                <em>R</em>
+                <em>O</em>
+                <em>J</em>
+                <em>E</em>
+                <em>C</em>
+                <em>T</em>
+                <em>S</em>
+              </span>
+            </span>
+          </a>
+        </li>
+        <li class="site-nav__item languages">
+          <a class="site-nav__link">
+            <span class="animated-btn">
+              <span>
+                <em>L</em>
+                <em>A</em>
+                <em>N</em>
+                <em>G</em>
+                <em>U</em>
+                <em>A</em>
+                <em>G</em>
+                <em>E</em>
+                <em>S</em>
+              </span>
+            </span>
+          </a>
+        </li>
+        <li class="site-nav__item education">
+          <a class="site-nav__link">
+            <span class="animated-btn">
+              <span>
+                <em>E</em>
+                <em>D</em>
+                <em>U</em>
+                <em>C</em>
+                <em>A</em>
+                <em>T</em>
+                <em>I</em>
+                <em>O</em>
+                <em>N</em>
+              </span>
+            </span>
+          </a>
+        </li>
+        <li class="site-nav__item code">
+          <a class="site-nav__link">
+            <span class="animated-btn">
+              <span>
+                <em>C</em>
+                <em>O</em>
+                <em>D</em>
+                <em>E</em>
+                <em>S</em>
+                <em>T</em>
+                <em>Y</em>
+                <em>L</em>
+                <em>E</em>
+              </span>
+            </span>
+          </a>
+        </li>
+        <li class="site-nav__item contacts">
+          <a class="site-nav__link">
+            <span class="animated-btn">
+              <span>
+                <em>C</em>
+                <em>O</em>
+                <em>N</em>
+                <em>T</em>
+                <em>A</em>
+                <em>C</em>
+                <em>T</em>
+                <em>S</em>
+              </span>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main class="main">
+    <div class="section1"></div>
+    <div class="section2">
+      <div class="section2__top"></div>
+      <section class="section-home" id="home">
+        <h1 class="home-title">Aidyn<br>Akhmetov</h1>
+        <p class="home-subtitle">FUTURE WEB DEVELOPER</p>
+        <p class="home-bio">
+          Hello! I am a novice Web Developer from Kazakhstan. I have some experience in web development, but I'm still
+          learning.
+        </p>
+        <a class="button-container">
+          <div class="site-nav__link">
+            <span class="animated-btn">
+              <span>
+                <em>C</em>
+                <em>O</em>
+                <em>N</em>
+                <em>T</em>
+                <em>A</em>
+                <em>C</em>
+                <em class="right-space">T</em>
+                <em>M</em>
+                <em>E</em>
+              </span>
+            </span>
+          </div>
+          <div class="button-arrow"></div>
+        </a>
+      </section>
+      <div class="link-to-menu bottom-line"></div>
+      <section class="section section-about" id="about">
+        <h2 class="seaction-title">About Me</h2>
+        <p class="section-subtitle">MY STORY</p>
+        <p class="about-bio">
+          I have been doing the layout of websites for half a year now. There are a couple of sites and one big project,
+          an online
+          store. I'm into web development and especially front-end development. Last year I tried to take Alem scool
+          course, but
+          didn't pass because I don't know golang language.<br><br>
+          But the fact that I could not pass the pool, not one bit sad for me because I've gained invaluable experience,
+          teamwork,
+          and my first development experience, made many good friends, as well as knowledge. I hope that my diligence
+          and this
+          course will help me gain useful knowledge to find my first job and gain experience in web development.
+        </p>
+      </section>
+      <div class="link-to-menu bottom-line"></div>
+      <section class="section section-skills" id="skills">
+        <h2 class="seaction-title">Coding Skills</h2>
+        <p class="section-subtitle">DEVELOPING ON</p>
+        <ul class="skills-circles">
+          <li class="single-chart">
+            <svg viewbox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg" d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <path class="circle" stroke-dasharray="95, 100" d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <text x="18" y="20.35" class="percentage">95%</text>
+            </svg>
+            <p class="chart-title">HTML</p>
+          </li>
+          <li class="single-chart">
+            <svg viewbox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg" d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <path class="circle" stroke-dasharray="85, 100" d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <text x="18" y="20.35" class="percentage">85%</text>
+            </svg>
+            <p class="chart-title">CSS</p>
+          </li>
+          <li class="single-chart">
+            <svg viewbox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg" d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <path class="circle" stroke-dasharray="30, 100" d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <text x="18" y="20.35" class="percentage">50%</text>
+            </svg>
+            <p class="chart-title">JavaScript</p>
+          </li>
+          <li class="single-chart">
+            <svg viewbox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg" d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <path class="circle" stroke-dasharray="20, 100" d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <text x="18" y="20.35" class="percentage">50%</text>
+            </svg>
+            <p class="chart-title">React</p>
+          </li>
+          <li class="single-chart">
+            <svg viewbox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <path class="circle" stroke-dasharray="15, 100" d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <text x="18" y="20.35" class="percentage">50%</text>
+            </svg>
+            <p class="chart-title">golang</p>
+          </li>
+          <li class="single-chart">
+            <svg viewbox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg" d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <path class="circle" stroke-dasharray="30, 100" d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+              <text x="18" y="20.35" class="percentage">30%</text>
+            </svg>
+            <p class="chart-title">Git</p>
+          </li>
+        </ul>
+      </section>
+      <div class="link-to-menu bottom-line"></div>
+      <section class="section section-projects" id="projects">
+        <h2 class="seaction-title">Projects</h2>
+        <p class="section-subtitle">WHAT I DO</p>
+        <div class="projects-container">
+          <div class="projects-wrapper">
+            <div class="project">
+              <a href="https://uchenik1.github.io/Beauty/" target="_blank" class="project-link">
+                <img src="img\beauty.png" alt="Beauty" class="project-img">
+              </a>
+            </div>
+            <p class="project-name">Beauty</p>
+          </div>
+          <div class="projects-wrapper">
+            <div class="project">
+              <a href="https://uchenik1.github.io/konstruckt.git.io/" target="_blank" class="project-link">
+                <img src="img\konstruct.jpg" alt="konstruckt" class="project-img">
+              </a>
+            </div>
+            <p class="project-name">konstruckt</p>
+          </div>
+          <div class="projects-wrapper">
+            <div class="project">
+              <a href="https://uchenik1.github.io/btsdigital.kz/" target="_blank" class="project-link">
+                <img src="img\dgital.jpg" alt="dgital" class="project-img">
+              </a>
+            </div>
+            <p class="project-name">BTS-Dgital</p>
+          </div>
+        </div>
+      </section>
+      <div class="link-to-menu bottom-line"></div>
+      <section class="section section-languages" id="languages">
+        <h2 class="seaction-title">Languages</h2>
+        <p class="section-subtitle">READING AND WRITING</p>
+        <ul class="languages-container">
+          <li class="language">
+            <p class="language-name">Kazakh</p>
+            <p class="language-bio">
+              My level is (C2). This is my native language.
+            </p>
+            <div class="language-level">
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+            </div>
+          </li>
+          <li class="language">
+            <p class="language-name">Russian</p>
+            <p class="language-bio">
+              My level is (C1). This is my second native language.
+            </p>
+            <div class="language-level">
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot grey"></span>
+            </div>
+          </li>
+          <li class="language">
+            <p class="language-name">English</p>
+            <p class="language-bio">
+              My level is A2. My reading, writing and listening skills are below average. I have difficulty speaking,
+              but I can
+              maintain basic dialogue.
+            </p>
+            <div class="language-level">
+              <span class="dot green"></span>
+              <span class="dot green"></span>
+              <span class="dot grey"></span>
+              <span class="dot grey"></span>
+              <span class="dot grey"></span>
+              <span class="dot grey"></span>
+              <span class="dot grey"></span>
+              <span class="dot grey"></span>
+              <span class="dot grey"></span>
+              <span class="dot grey"></span>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <div class="link-to-menu bottom-line"></div>
+      <section class="section section-education" id="education">
+        <h2 class="seaction-title">Education</h2>
+        <p class="section-subtitle">STUDIED AT</p>
+        <div class="education-block">
+          <div class="education-place">
+            <div class="education-header">
+              <p class="educayion-years">2021</p>
+              <p class="education-name">The layout course from 0 to 1 (23.08.2021)</p>
+            </div>
+            <p class="education-description">I completed a course on website layout
+            </p>
+          </div>
+          <div class="education-place">
+            <div class="education-header">
+              <p class="educayion-years">2022</p>
+              <p class="education-name">Front-End Online Program in Epam</p>
+            </div>
+            <p class="education-description">I've learned HTML, CSS and JS basics
+              here.</p>
+          </div>
+        </div>
+      </section>
+      <div class="link-to-menu bottom-line"></div>
+      <section class="section section-code" id="code">
+        <h2 class="seaction-title">Code Example</h2>
+        <p class="section-subtitle">MY CODE STYLE</p>
+        <code class="code-block"><span class="c_dark-blue">const</span> <span class="c_blue">MORSE_TABLE</span> = <span class="c_saturated-yellow">{</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <span class="c_orange">'.-'<span class="c_light-blue">:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'a'</span>,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <span class="c_orange">'-...'<span class="c_light-blue">:</span>&nbsp;&nbsp;&nbsp;'b'</span>,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <span class="c_orange">'-.-.'<span class="c_light-blue">:</span>&nbsp;&nbsp;&nbsp;'c'</span>,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;···<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <span class="c_orange">'---..'<span class="c_light-blue">:</span>&nbsp;&nbsp;'8'</span>,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <span class="c_orange">'----.'<span class="c_light-blue">:</span>&nbsp;&nbsp;'9'</span>,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <span class="c_orange">'-----'<span class="c_light-blue">:</span>&nbsp;&nbsp;'0'</span>,<br>
+                    <span class="c_saturated-yellow">}</span><br>
+                    <br>
+                    <span class="c_yellow">decode</span> = <span class="c_saturated-yellow">(<span class="c_light-blue">expr</span>)</span> <span class="c_dark-blue">=&gt;</span> <span class="c_saturated-yellow">{</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_light-pink">return</span> <span class="c_light-blue">expr</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .<span class="c_yellow">match</span><span class="c_pink">(<span class="c-red">/.<span class="c_dark-yellow">{10}</span>/<span class="c_dark-blue">g</span></span>)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .<span class="c_yellow">map</span><span class="c_pink">(</span><span class="c_light-blue">el <span class="c_dark-blue">=&gt;</span> el</span>.<span class="c_yellow">includes</span><span class="c_saturated-blue">(<span class="c_orange">'*'</span>)</span> ? <span class="c_orange">' '</span> : <span class="c_green">String</span><span class="c_saturated-blue">(</span><span class="c_yellow">parseInt</span><span class="c_saturated-yellow">(</span><span class="c_light-blue">el</span>, <span class="c_light-green">10</span><span class="c_saturated-yellow">)</span><span class="c_saturated-blue">)</span><span class="c_pink">)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .<span class="c_yellow">map</span><span class="c_pink">(</span><span class="c_light-blue">el <span class="c_dark-blue">=&gt;</span> el</span> !== <span class="c_orange">' '</span> ? <span class="c_light-blue">el</span>.<span class="c_yellow">match</span><span class="c_saturated-blue">(<span class="c-red">/.<span class="c_dark-yellow">{10}</span>/<span class="c_dark-blue">g</span></span>)</span> : <span class="c_saturated-blue">[<span class="c_orange">' '</span>]</span><span class="c_pink">)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .<span class="c_yellow">map</span><span class="c_pink">(</span><span class="c_light-blue">el <span class="c_dark-blue">=&gt;</span> el</span>.<span class="c_yellow">map</span><span class="c_saturated-blue">(</span><span class="c_light-blue">i <span class="c_dark-blue">=&gt;</span> i</span> === <span class="c_orange">' '</span> ? <span class="c_orange">' '</span> : <span class="c_light-blue">i</span> === <span class="c_orange">'10'</span> ? <span class="c_orange">'.'</span> : <span class="c_orange">'-'</span><span class="c_saturated-blue">)</span><span class="c_pink">)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .<span class="c_yellow">map</span><span class="c_pink">(</span><span class="c_light-blue">el <span class="c_dark-blue">=&gt;</span> el</span>.<span class="c_yellow">join</span><span class="c_saturated-blue">(<span class="c_orange">''</span>)</span><span class="c_pink">)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .<span class="c_yellow">map</span><span class="c_pink">(</span><span class="c_light-blue">el <span class="c_dark-blue">=&gt;</span> el</span> !== <span class="c_orange">' '</span> ? <span class="c_blue">MORSE_TABLE</span><span class="c_saturated-blue">[<span class="c_light-blue">el</span>]</span> : <span class="c_orange">' '</span><span class="c_pink">)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .<span class="c_yellow">join<span class="c_pink">(<span class="c_orange">''</span>)</span><br>
+                    <span class="c_saturated-yellow">}</span></span></code>
+      </section>
+      <div class="link-to-menu bottom-line"></div>
+      <section class="section section-contacts" id="contacts">
+        <h2 class="seaction-title">Contacts</h2>
+        <p class="section-subtitle">LET'S TALK</p>
+        <div class="contacts-block">
+          <div class="contact">
+            <p class="contact-title">AGE:</p>
+            <p class="contact-text">34</p>
+          </div>
+          <div class="contact">
+            <p class="contact-title">ADDRESS:</p>
+            <p class="contact-text">Kazakhstan, Astana</p>
+          </div>
+          <div class="contact">
+            <p class="contact-title">PHONE:</p>
+            <p class="contact-text"><a href="tel:+77024795802">+7 702 479 58 02</a></p>
+          </div>
+          <div class="contact">
+            <p class="contact-title">E-MAIL:</p>
+            <p class="contact-text"><a href="mailto:ahmetovv_aidyn@mail.com">ahmetovv_aidyn@mail.ru</a></p>
+          </div>
+          <div class="contact">
+            <p class="contact-title">TELEGRAM:</p>
+            <p class="contact-text"><a href="https://t.me/digll" target="_blank">digll</a></p>
+          </div>
+          <div class="contact">
+            <p class="contact-title">GITHUB:</p>
+            <p class="contact-text"><a href="https://github.com/uchenik1" target="_blank">uchenik1</a></p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <a href="https://rs.school/js/" target="_blank" class="rs-logo footer-el"></a>
+        <p class="creator footer-el">© 2022 by Akhmetov Aidyn</p>
+        <a href="https://github.com/uchenik1" target="_blank" class="github footer-el"></a>
+      </footer>
+    </div>
+    <div class="section3">
+      <div class="icon icon-one">
+        <a href="https://www.instagram.com/" target="_blank" class="icon1">
+        </a>
+      </div>
+      <div class="icon icon-two">
+        <a href="" target="_blank" class="icon2">
+        </a>
+      </div>
+      <div class="icon icon-three">
+        <a href="https://t.me/digll" target="_blank" class="icon3">
+        </a>
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
 </body>
 
 </html>
