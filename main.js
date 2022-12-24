@@ -104,3 +104,41 @@ document.querySelector('.menu-btn').addEventListener('click', ()=>{
         
 })
 
+document.querySelector('.themetoggle').addEventListener('click', (event) => {
+  event.preventDefault();
+  if (localStorage.getItem('theme') === 'dark') {
+    localStorage.removeItem('theme');
+  } else {
+    localStorage.setItem('theme', 'dark');
+  }
+  addDarkClassToHTML();
+});
+
+function addDarkClassToHTML() {
+  try {
+    if (localStorage.getItem('theme') === 'dark') {
+      document.querySelector('html').classList.add('dark');
+      document.querySelector('.themetoggle span').textContent = 'dark_mode';
+      document.querySelector('header').style.backgroundColor = '#585858';
+      document.querySelector('.header-nav').style.backgroundColor = '#585858';
+      document.querySelector('footer').style.backgroundColor = '#585858';
+      const paragraphs = document.querySelectorAll('p.home-bio, p.about-bio, p.language-bio, p.education-description, p.contact-text a, .contact-text');
+      paragraphs.forEach(paragraph => {
+        paragraph.style.color = '#fff';
+      });
+    } else {
+      document.querySelector('html').classList.remove('dark');
+      document.querySelector('.themetoggle span').textContent = 'wb_sunny';
+      document.querySelector('header').style.backgroundColor = '#fff';
+      document.querySelector('.header-nav').style.backgroundColor = '#fff';
+      document.querySelector('footer').style.backgroundColor = '#e0e1e2';
+      const paragraphs = document.querySelectorAll('p.home-bio, p.about-bio, p.language-bio, p.education-description, p.contact-text a, .contact-text');
+      paragraphs.forEach(paragraph => {
+        paragraph.style.color = '#585858';
+      });
+    }
+  } catch (err) { }
+}
+
+addDarkClassToHTML();
+
