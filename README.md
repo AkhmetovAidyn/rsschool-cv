@@ -1,1 +1,1 @@
-# rsschool-cv/plants https://uchenik1.github.io/rsschool-cv/plants/
+# plants https://uchenik1.github.io/rsschool-cv/plants/
